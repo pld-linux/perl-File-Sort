@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Sort
-%include	/usr/lib/rpm/macros.perl
 Summary:	File-Sort perl module
 Summary(pl):	Modu³ perla File-Sort
 Name:		perl-File-Sort
 Version:	1.00
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ File-Sort sorts text files by lines (or records).
 File-Sort sortuje pliki tekstowe wed³ug linii (lub rekordów).
 
 %prep
-%setup -q -n File-Sort-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
