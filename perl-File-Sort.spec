@@ -9,7 +9,7 @@ Summary:	File::Sort - sort a file or merge sort multiple files
 Summary(pl):	File::Sort - sortowanie pliku lub po³±czenie wyniku sortowania wielu plików
 Name:		perl-File-Sort
 Version:	1.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1 or Artistic
 Group:		Development/Languages/Perl
