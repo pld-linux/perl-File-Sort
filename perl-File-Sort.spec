@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	Sort
+%define		pdir	File
+%define		pnam	Sort
 Summary:	File::Sort - sort a file or merge sort multiple files
 Summary(pl):	File::Sort - sortowanie pliku lub po³±czenie wyniku sortowania wielu plików
 Name:		perl-File-Sort
