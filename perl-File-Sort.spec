@@ -2,8 +2,8 @@
 Summary:	File-Sort perl module
 Summary(pl):	Modu³ perla File-Sort
 Name:		perl-File-Sort
-Version:	0.91
-Release:	3
+Version:	1.00
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
