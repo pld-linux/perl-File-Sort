@@ -26,7 +26,7 @@ File::Sort sortuje pliki tekstowe wed³ug linii (lub rekordów).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
