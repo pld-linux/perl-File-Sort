@@ -25,7 +25,7 @@ File-Sort sortuje pliki tekstowe wed³ug linii (lub rekordów).
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
