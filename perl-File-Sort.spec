@@ -24,7 +24,7 @@ File::Sort sortuje pliki tekstowe wed³ug linii (lub rekordów).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
