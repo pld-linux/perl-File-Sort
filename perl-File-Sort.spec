@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Sort
 Summary:	File::Sort - sort a file or merge sort multiple files
-Summary(pl):	File::Sort - sortowanie pliku lub po≥±czenie wyniku sortowania wielu plikÛw
+Summary(pl.UTF-8):   File::Sort - sortowanie pliku lub po≈ÇƒÖczenie wyniku sortowania wielu plik√≥w
 Name:		perl-File-Sort
 Version:	1.01
 Release:	3
@@ -27,13 +27,13 @@ line of input, and are performed lexicographically. By default, if
 keys are not given, sort regards each input line as a single field. 
 The sort is a merge sort.
 
-%description -l pl
-Modu≥ Perla File::Sort sortuje pliki tekstowe wed≥ug wierszy (lub
-rekordÛw). PorÛwnania dokonywane s± w oparciu o jeden lub wiÍcej
-kluczy sortowania pobieranych z kaødego wiersza danych wej∂ciowych i
-uk≥adane leksykograficznie. Domy∂lnie, je∂li nie podano klucza,
-sortowanie dotyczy ca≥ych wierszy danych wej∂ciowych jako pojedynczych
-pÛl. Wyniki sortowania s± ≥±czone. 
+%description -l pl.UTF-8
+Modu≈Ç Perla File::Sort sortuje pliki tekstowe wed≈Çug wierszy (lub
+rekord√≥w). Por√≥wnania dokonywane sƒÖ w oparciu o jeden lub wiƒôcej
+kluczy sortowania pobieranych z ka≈ºdego wiersza danych wej≈õciowych i
+uk≈Çadane leksykograficznie. Domy≈õlnie, je≈õli nie podano klucza,
+sortowanie dotyczy ca≈Çych wierszy danych wej≈õciowych jako pojedynczych
+p√≥l. Wyniki sortowania sƒÖ ≈ÇƒÖczone. 
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
