@@ -4,7 +4,6 @@
 
 %define		pdir	File
 %define		pnam	Sort
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::Sort - sort a file or merge sort multiple files
 Summary(pl.UTF-8):	File::Sort - sortowanie pliku lub połączenie wyniku sortowania wielu plików
 Name:		perl-File-Sort
